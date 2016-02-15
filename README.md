@@ -1,0 +1,1 @@
+Open this project by Android Studio 1.3.1 and above.
