@@ -35,7 +35,7 @@ public class WeatherHttpClient {
 
     public String getWeatherDataByGPSLocation(double lat, double lon)
     {
-        String url = BASE_URL + "lat=" + lat + "&lon="+ lon +"&APPID="+APPID;
+        String url = BASE_URL + "lat=" + lat + "&lon="+ lon +"&APPID="+APPID + "&lang=" +"ru";
         return httpRequest(url);
     }
 
